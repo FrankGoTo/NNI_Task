@@ -6,6 +6,20 @@
 * 3.运行`main_cifar10NAS.py`文件，开始神经网络架构搜索，并将每轮生成的网络参数结果保存在`./checkpoints_layer5`中(网络的搜索空间设置为5层)。
 * 4.搜索程序结束后，依照生成网络结构参数，重新再数据训练一遍，测试最终的准确率（训练150轮）。
 ## 实验结果：
+```
+[05/22/2020, 11:21:08 AM] INFO (nni) Valid: [141/150] Final Prec@1 94.0900%
+[05/22/2020, 11:21:48 AM] INFO (nni) Valid: [142/150] Final Prec@1 93.9500%
+[05/22/2020, 11:22:28 AM] INFO (nni) Valid: [143/150] Final Prec@1 94.0800%
+[05/22/2020, 11:23:07 AM] INFO (nni) Valid: [144/150] Final Prec@1 93.9900%
+[05/22/2020, 11:23:47 AM] INFO (nni) Valid: [145/150] Final Prec@1 94.0900%
+[05/22/2020, 11:24:27 AM] INFO (nni) Valid: [146/150] Final Prec@1 94.1300%
+[05/22/2020, 11:25:07 AM] INFO (nni) Valid: [147/150] Final Prec@1 94.0200%
+[05/22/2020, 11:25:46 AM] INFO (nni) Valid: [148/150] Final Prec@1 94.0600%
+[05/22/2020, 11:26:26 AM] INFO (nni) Valid: [149/150] Final Prec@1 94.0800%
+[05/22/2020, 11:27:06 AM] INFO (nni) Valid: [150/150] Final Prec@1 94.0600%
+```
+* 网络最终的准确率为94.06%，结果优于在任务一中直接使用的现有模型。
+
 #### 图1 搜索空间为5层 最终准确率
 ![图片路径 ./pic/image001.png](./pic/image001.png "图片路径 ./pic/image001.png")
 
