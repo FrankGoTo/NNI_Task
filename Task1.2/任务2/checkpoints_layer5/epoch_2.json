@@ -1,0 +1,298 @@
+{
+  "normal_n2_p0": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+  ],
+  "normal_n2_p1": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+  ],
+  "normal_n2_switch": [
+    true,
+    true
+  ],
+  "normal_n3_p0": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "normal_n3_p1": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+  ],
+  "normal_n3_p2": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+  ],
+  "normal_n3_switch": [
+    false,
+    true,
+    true
+  ],
+  "normal_n4_p0": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "normal_n4_p1": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "normal_n4_p2": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+  ],
+  "normal_n4_p3": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+  ],
+  "normal_n4_switch": [
+    false,
+    false,
+    true,
+    true
+  ],
+  "normal_n5_p0": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "normal_n5_p1": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "normal_n5_p2": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "normal_n5_p3": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+  ],
+  "normal_n5_p4": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true
+  ],
+  "normal_n5_switch": [
+    false,
+    false,
+    false,
+    true,
+    true
+  ],
+  "reduce_n2_p0": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "reduce_n2_p1": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "reduce_n2_switch": [
+    true,
+    true
+  ],
+  "reduce_n3_p0": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "reduce_n3_p1": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "reduce_n3_p2": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "reduce_n3_switch": [
+    true,
+    false,
+    true
+  ],
+  "reduce_n4_p0": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "reduce_n4_p1": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "reduce_n4_p2": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "reduce_n4_p3": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true
+  ],
+  "reduce_n4_switch": [
+    true,
+    false,
+    false,
+    true
+  ],
+  "reduce_n5_p0": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "reduce_n5_p1": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "reduce_n5_p2": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "reduce_n5_p3": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "reduce_n5_p4": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true
+  ],
+  "reduce_n5_switch": [
+    true,
+    false,
+    false,
+    false,
+    true
+  ]
+}
