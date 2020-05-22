@@ -1,0 +1,8 @@
+{
+    "initial_lr":{"_type":"uniform","_value":[0.01, 0.5]},
+    "model":{"_type":"choice","_value":["resnet18","shufflenet_v2_x1_0", "mobilenet_v2"]},
+    "lr_scheduler":{"_type":"choice","_value":["cosin","linear"]},
+    "batch_size":{"_type":"choice","_value":[128,256,512,1024,2048]},
+    "optimizer":{"_type":"choice","_value":["sgd", "rmsprop", "adam"]},
+    "momentum":{"_type":"uniform","_value":[0.75, 0.95]}
+}

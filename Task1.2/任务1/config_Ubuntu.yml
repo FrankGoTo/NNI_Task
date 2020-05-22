@@ -1,0 +1,37 @@
+authorName: default
+experimentName: example_mnist_pytorch
+trialConcurrency: 24
+maxExecDuration: 24h
+maxTrialNum: 100
+#choice: local, remote, pai
+trainingServicePlatform: local
+searchSpacePath: search_space.json
+#choice: true, false
+useAnnotation: false
+
+tuner:
+  #choice: TPE, Random, Anneal, Evolution, BatchTuner, MetisTuner, GPTuner
+  #SMAC (SMAC should be installed through nnictl)
+  builtinTunerName: TPE
+  classArgs:
+    #choice: maximize, minimize
+    optimize_mode: maximize
+trial:
+  command: python3 cifar10.py
+  codeDir: .
+  gpuNum: 1
+
+localConfig:
+  maxTrialNumPerGpu: 6
+  useActiveGpu: true
+assessor:
+  #choice: Medianstop, Curvefitting
+  builtinAssessorName: Curvefitting
+  classArgs:
+    #choice: maximize, minimize
+    optimize_mode: maximize
+    epoch_num: 20
+    threshold: 0.95
+    gap: 1
+
+
