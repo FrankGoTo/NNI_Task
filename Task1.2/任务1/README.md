@@ -16,16 +16,16 @@
 
 ## 实验结果：
 #### 图1 精确度Top10
-![](./pic/image001.png "title")
+![图片路径 ./pic/image001.png](./pic/image001.png "图片路径 ./pic/image001.png")
 ```
 
 ```
 #### 图2 精确度Top1详细超参数
-![](./pic/image003.png "title")
+![图片路径 ./pic/image003.png](./pic/image003.png "图片路径 ./pic/image003.png")
 #### 图3 各类参数之间的影响
-![](./pic/image005.png "title")
+![图片路径 ./pic/image005.png](./pic/image005.png "图片路径 ./pic/image005.png")
 #### 图4 所有Trial的准确度曲线
-![](./pic/image007.png "title")
+![图片路径 ./pic/image007.png](./pic/image007.png "图片路径 ./pic/image007.png")
 
 ## 实验总结
 * `step`衰减方式和`cosin`衰减方式相比，前者更容易陷入局部最优，导致精确度不在继续提升，如4所示，很多精确度较差trial，精确度前期有提升，但是到25轮之后，精确度曲线变为直线，不再提升。
