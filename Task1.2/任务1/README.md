@@ -16,4 +16,4 @@
 
 ## 实验结果：
 ##### 精确度Top10
-![alt](./img/image003.png "title")
+![](./pic/image003.png "title")
