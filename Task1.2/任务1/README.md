@@ -24,13 +24,14 @@
 ![图片路径 ./pic/image003.png](./pic/image003.png "图片路径 ./pic/image003.png")
 #### 图2 精确度Top1详细超参数
 
-![图片路径 ./pic/image005.png](./pic/image005.png "图片路径 ./pic/image005.png")
+![图片路径 ./pic/image005.png](./pic/image005.png "图片路径 ./pic/image007.png")
 #### 图3 各类参数之间的影响
 
-![图片路径 ./pic/image007.png](./pic/image007.png "图片路径 ./pic/image007.png")
+![图片路径 ./pic/image007.png](./pic/image007.png "图片路径 ./pic/image009.png")
 #### 图4 所有Trial的准确度曲线
 
 ## 实验总结
 * 直接用骨干网训练，精度最高到了87.71%。
 * `step`衰减方式和`cosin`衰减方式相比，前者更容易陷入局部最优，导致精确度不在继续提升，如4所示，很多精确度较差trial，精确度前期有提升，但是到25轮之后，精确度曲线变为直线，不再提升。
 * 在优化器选择上，`SGD`的最终效果更好，`adam`优化器前期loss下降较快，但最终效果并不是最好。
+##### :blush:
