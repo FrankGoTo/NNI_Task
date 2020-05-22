@@ -24,10 +24,10 @@
 ![图片路径 ./pic/image003.png](./pic/image003.png "图片路径 ./pic/image003.png")
 #### 图2 精确度Top1详细超参数
 
-![图片路径 ./pic/image005.png](./pic/image005.png "图片路径 ./pic/image007.png")
+![图片路径 ./pic/image007.png](./pic/image007.png "图片路径 ./pic/image007.png")
 #### 图3 各类参数之间的影响
 
-![图片路径 ./pic/image007.png](./pic/image007.png "图片路径 ./pic/image009.png")
+![图片路径 ./pic/image009.png](./pic/image009.png "图片路径 ./pic/image009.png")
 #### 图4 所有Trial的准确度曲线
 
 ## 实验总结
