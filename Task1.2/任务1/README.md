@@ -17,17 +17,18 @@
 通过pytorch直接导入模型时，默认为1000分类，需要将最后的全连接部分改为10分类，减少模型参数。
 
 ## 实验结果：
-#### 图1 精确度Top10
-![图片路径 ./pic/image001.png](./pic/image001.png "图片路径 ./pic/image001.png")
-```
 
-```
-#### 图2 精确度Top1详细超参数
+![图片路径 ./pic/image001.png](./pic/image001.png "图片路径 ./pic/image001.png")
+#### 图1 精确度Top10
+
 ![图片路径 ./pic/image003.png](./pic/image003.png "图片路径 ./pic/image003.png")
-#### 图3 各类参数之间的影响
+#### 图2 精确度Top1详细超参数
+
 ![图片路径 ./pic/image005.png](./pic/image005.png "图片路径 ./pic/image005.png")
-#### 图4 所有Trial的准确度曲线
+#### 图3 各类参数之间的影响
+
 ![图片路径 ./pic/image007.png](./pic/image007.png "图片路径 ./pic/image007.png")
+#### 图4 所有Trial的准确度曲线
 
 ## 实验总结
 * 直接用骨干网训练，精度最高到了87.71%。
